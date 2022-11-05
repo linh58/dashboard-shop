@@ -1,0 +1,61 @@
+:root {
+    --white: #fff;
+    --primary: #EFEFEF;
+    --input-background-color: #F4F4F4;
+    --heading-color: #1A1D1F;
+    --text-color: #6f767e;
+    --light-blue: #2A85FF;
+    --dark-blue: #005cd6;
+    --orange-block-title: rgb(255, 188, 153);
+    --blue-block-title: rgb(177, 229, 252);
+    --purple-block-title: rgb(202, 189, 255);
+    --light-green-block-title: rgb(234, 250, 229);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    font-size: 1.5rem;
+    font-family: inter,sans-serif;
+    font-weight: 600;
+    color: var(--heading-color);
+}
+
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1280px) {
+    .tablet_hide {
+        display: none !important;
+    }
+
+    .tablet_show {
+        display: block !important; 
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .mobile_hide {
+        display: none !important;
+    }
+    .mobile_show {
+        display: block !important;
+    }
+}

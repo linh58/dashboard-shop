@@ -1,0 +1,95 @@
+.promote__heading {
+    font-size: 4rem;
+    margin-bottom: 32px;
+}
+
+//Promote insights
+.promote__insight {
+    background-color: var(--white);
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.insight__heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.insight__blocks {
+    display: flex;
+    padding-top: 28px;
+}
+
+.insight__block {
+    padding-left: 16px;
+    max-width: 25%;
+    flex-basis: 25%;
+    flex-grow: 0;
+    position: relative;
+}
+
+.insight__block-container {
+    padding-left: 32px;
+    padding-bottom: 20px;
+}
+
+.insight__block-content {
+    padding-top: 24px;
+}
+
+.insight__block-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background-color: var(--light-green-block-title);
+}
+
+.insight__block-title {
+    display: flex;
+    align-items: flex-start;
+    font-size: 1.3rem;
+    color: var(--text-color);
+
+    & span {
+        margin-right: 7px;
+    }
+
+    & img {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+.insight__block-number {
+    font-size: 4.8rem;
+}
+
+.insight__block-mode {
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    font-size: 1.3rem;
+
+    & span {
+        margin-right: 3px;
+    }
+
+    .block__mode-numberal {
+        font-size: 1.2rem;
+    }
+}
+
+//Promote recent post
+.promote__recent-post {
+    background-color: var(--white);
+    padding: 24px;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+.recent__post-heading {
+    display: flex;
+    justify-content: space-between;
+}

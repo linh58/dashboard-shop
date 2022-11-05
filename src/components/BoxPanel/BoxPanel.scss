@@ -1,0 +1,171 @@
+.box__panel-container {
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #F4F4F4;
+    padding: 12px;
+    margin: 32px 0;
+
+    & button {
+        padding: 0;
+        border-radius: 12px;
+        text-transform: unset;
+    }
+
+    .box__panel {
+        display: flex;
+        padding: 22px 18px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .MuiTabs-flexContainer {
+        justify-content: center;
+    }
+
+    .box__panel-left {
+        display: flex;
+    }
+
+    .box__panel-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        background-color: #CABDFF;
+        margin-right: 16px;
+    }
+
+    .box__content-title {
+        color: rgb(111, 118, 126);
+        font-size: 1.3rem;
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        text-transform: unset;
+
+        & img {
+            width: 13px;
+            height: 13px;
+            margin-left: 5px;
+        }
+    }
+
+    .box__content-num {
+        font-size: 48px;
+        font-weight: 600;
+        color: var(--heading-color);
+        padding: 8px 0;
+    }
+
+    .box__content-numberal {
+        font-size: 1.2rem;
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        padding: 5px;
+        align-items: center;
+        border-radius: 8px;
+        justify-content: center;
+        background-color: #EAFAE5;
+        color: #83BF6E;
+    }
+}
+
+.panel__customer-message {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 24px;
+
+    & p {
+        font-size: 1.5rem;
+        max-width: 250px;
+        margin-right: 15px;
+        margin-bottom: 5px;
+        color: var(--text-color);
+    }
+}
+
+.panel__customer-list {
+    display: flex;
+    padding: 32px 35px;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.panel__customer-button {
+    cursor: pointer;
+}
+
+.panel__customer-viewall {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    margin-bottom: 12px;
+
+    & img{
+        width: 24px;
+        height: 24px;
+    }
+
+    &:hover {
+        background-color: #dfdbdb;
+    }
+}
+
+.panel__customer-item {
+    cursor: pointer;
+
+    & img {
+        width: 64px;
+        height: 64px;
+        margin-bottom: 12px;
+    }
+}
+
+#simple-tabpanel-0 .MuiBox-root {
+    padding: 0;
+}
+#simple-tabpanel-1 .MuiBox-root {
+    padding: 0;
+}
+
+@media only screen and (max-width: 1280px) {
+    .box__panel-container {
+        .MuiTabs-flexContainer {
+            justify-content: unset;
+            flex-direction: column;
+        }
+    }
+
+    .panel__customer-list {
+        flex-wrap: wrap;
+    }
+
+    .panel__customer-item {
+        width: 50%;
+    }
+
+    .panel__customer-button {
+        width: 50%;
+    }
+
+    .panel__customer-viewall {
+        display: unset;
+    }
+
+    .box__content-num {
+        font-size: 4rem !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+   
+}
